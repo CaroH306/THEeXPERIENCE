@@ -1,0 +1,561 @@
+body {
+    background-color: black;
+    width: 100vh;
+}
+
+a{
+color: black;
+}
+
+a:hover{
+  color: 91bf27;
+  opacity: 25%;
+}
+
+a:visited {
+  color: none;
+}
+
+  /*      || LOADINGGGG... ||      */
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f36b;
+    border-radius: 50%;
+    border-top: 16px solid #21ff3b57;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+#myDiv {
+position: relative;
+margin: 5%;
+padding-right: 20;
+box-sizing: border-box;
+}
+
+
+  /*  || texto animated ||  */
+    #uno {
+
+      display: block;
+      
+      font-family: monospace;
+      
+      white-space: nowrap;
+      color: 91bf27;
+      
+      width: 27ch;
+      
+      
+      
+      animation: typing 2s steps(27), blink .5s infinite step-end alternate;
+      animation-delay: 4s;
+      animation-fill-mode: both;
+      overflow:hidden;
+      
+      }
+      
+      #dos {
+
+        display: block;
+        
+        font-family: monospace;
+        
+        white-space: nowrap;
+        color: 91bf27;
+        
+        width: 105ch;
+        
+        
+        
+        animation: typing 8s steps(105), blink .5s infinite step-end alternate;
+        animation-delay: 8s;
+        animation-fill-mode: both;
+        overflow:hidden;
+
+       
+
+        
+        }
+
+        #tres {
+
+          display: block;
+          
+          font-family: monospace;
+          
+          white-space: nowrap;
+          color: 91bf27;
+          
+          width: 43ch;
+          
+          
+          
+          animation: typing 4s steps(43), blink .5s infinite step-end alternate;
+          animation-delay: 18s;
+          animation-fill-mode: both;
+          overflow:hidden;
+  
+         
+  
+          
+          }
+        
+          #cuatro {
+
+            display: block;
+            
+            font-family: monospace;
+            
+            white-space: nowrap;
+            color: 91bf27;
+            
+            width: 53ch;
+            
+            
+            
+            animation: typing 3s steps(53), blink .5s infinite step-end alternate;
+            animation-delay: 24s;
+            animation-fill-mode: both;
+            overflow:hidden;
+    
+           
+    
+            
+            }
+
+            
+          #cinco {
+
+            display: block;
+            
+            font-family: monospace;
+            
+            white-space: nowrap;
+            color: 91bf27;
+            
+            width: 43ch;
+            
+            
+            
+            animation: typing 3s steps(43), blink .5s infinite step-end alternate;
+            animation-delay: 29s;
+            animation-fill-mode: both;
+            overflow:hidden;
+    
+           
+    
+            
+            }
+            #seis {
+
+              display: block;
+              
+              font-family: monospace;
+              
+              white-space: nowrap;
+              color: 91bf27;
+              
+              width: 19ch;
+              
+              
+              
+              animation: typing 1.5s steps(19), blink .5s infinite step-end alternate;
+              animation-delay: 33s;
+              animation-fill-mode: both;
+              overflow:hidden;
+      
+             
+      
+              
+              }
+              
+              #siete {
+
+                display: block;
+                
+                font-family: monospace;
+                
+                white-space: nowrap;
+                color: 91bf27;
+                
+                width: 74ch;
+                
+                
+                
+                animation: typing 6s steps(74), blink .5s infinite step-end alternate;
+                animation-delay: 38s;
+                animation-fill-mode: both;
+                overflow:hidden;
+        
+               
+        
+                
+                }
+                #ocho {
+
+                  display: block;
+                  
+                  font-family: monospace;
+                  
+                  white-space: nowrap;
+                  color: 91bf27;
+                  
+                  width: 77ch;
+                  
+                  
+                  
+                  animation: typing 6s steps(77), blink .5s infinite step-end alternate;
+                  animation-delay: 44s;
+                  animation-fill-mode: both;
+                  overflow:hidden;
+          
+                 
+          
+                  
+                  }
+                  #nueve {
+
+                    display: block;
+                    
+                    font-family: monospace;
+                    
+                    white-space: nowrap;
+                    color: 91bf27;
+                    
+                    width: 77ch;
+                    
+                    
+                    
+                    animation: typing 6s steps(77), blink .5s infinite step-end alternate;
+                    animation-delay: 50s;
+                    animation-fill-mode: both;
+                    overflow:hidden;
+            
+                   
+            
+                    
+                    }
+                    #diez{
+
+                      display: block;
+                      
+                      font-family: monospace;
+                      
+                      white-space: nowrap;
+                      color: 91bf27;
+                      
+                      width: 47ch;
+                      
+                      
+                      
+                      animation: typing 6s steps(47), blink .5s infinite step-end alternate;
+                      animation-delay: 56s;
+                      animation-fill-mode: both;
+                      overflow:hidden;
+              
+                     
+              
+                      
+                      }
+                      #once{
+
+                        display: block;
+                        
+                        font-family: monospace;
+                        
+                        white-space: nowrap;
+                        color: 91bf27;
+                        
+                        width: 69ch;
+                        
+                        
+                        
+                        animation: typing 6s steps(69), blink .5s infinite step-end alternate;
+                        animation-delay: 64s;
+                        animation-fill-mode: both;
+                        overflow:hidden;
+                
+                       
+                
+                        
+                        }
+                        #doce {
+
+                          display: block;
+                          
+                          font-family: monospace;
+                          
+                          white-space: nowrap;
+                          color: 91bf27;
+                          
+                          width: 12ch;
+                          
+                          
+                          
+                          animation: typing 1.5s steps(12), blink .5s infinite step-end alternate;
+                          animation-delay: 74s;
+                          animation-fill-mode: both;
+                          overflow:hidden;
+                  
+                         
+                  
+                          
+                          }
+                          #trece {
+
+                            display: block;
+                            
+                            font-family: monospace;
+                            
+                            white-space: nowrap;
+                            color: 91bf27;
+                            
+                            width: 85ch;
+                            
+                            
+                            
+                            animation: typing 7s steps(85), blink .5s infinite step-end alternate;
+                            animation-delay: 78s;
+                            animation-fill-mode: both;
+                            overflow:hidden;
+                    
+                           
+                    
+                            
+                            }
+                            #catorce {
+
+                              display: block;
+                              
+                              font-family: monospace;
+                              
+                              white-space: nowrap;
+                              color: 91bf27;
+                              
+                              width: 4ch;
+                              
+                              
+                              
+                              animation: typing 1s steps(4), blink .5s infinite step-end alternate;
+                              animation-delay: 87s;
+                              animation-fill-mode: both;
+                              overflow:hidden;
+                      
+                             
+                      
+                              
+                              }
+                              #quince {
+
+                                display: block;
+                                
+                                font-family: monospace;
+                                
+                                white-space: nowrap;
+                                color: 91bf27;
+                                
+                                width: 86ch;
+                                
+                                
+                                
+                                animation: typing 7s steps(86), blink .5s infinite step-end alternate;
+                                animation-delay: 92s;
+                                animation-fill-mode: both;
+                                overflow:hidden;
+                        
+                               
+                        
+                                
+                                }
+                                #dieciseis{
+
+                                  display: block;
+                                  
+                                  font-family: monospace;
+                                  
+                                  white-space: nowrap;
+                                  color: 91bf27;
+                                  
+                                  width: 27ch;
+                                  
+                                  
+                                  
+                                  animation: typing 2s steps(27), blink .5s infinite step-end alternate;
+                                  animation-delay: 99s;
+                                  animation-fill-mode: both;
+                                  overflow:hidden;
+                          
+                                 
+                          
+                                  
+                                  }
+                                  #diecisiete{
+
+                                    display: block;
+                                    
+                                    font-family: monospace;
+                                    
+                                    white-space: nowrap;
+                                    color: 91bf27;
+                                    
+                                    width: 42ch;
+                                    
+                                    
+                                    
+                                    animation: typing 4s steps(42), blink .5s infinite step-end alternate;
+                                    animation-delay: 105s;
+                                    animation-fill-mode: both;
+                                    overflow:hidden;
+                            
+                                   
+                            
+                                    
+                                    }
+                                    #dieciocho {
+
+                                      display: block;
+                                      
+                                      font-family: monospace;
+                                      
+                                      white-space: nowrap;
+                                      color: 91bf27;
+                                      
+                                      width: 54ch;
+                                      
+                                      
+                                      
+                                      animation: typing 4.5s steps(54), blink .5s infinite step-end alternate;
+                                      animation-delay: 112s;
+                                      animation-fill-mode: both;
+                                      overflow:hidden;
+                              
+                                     
+                              
+                                      
+                                      }
+                                      #diecinueve {
+
+                                        display: block;
+                                        
+                                        font-family: monospace;
+                                        
+                                        white-space: nowrap;
+                                        color: 91bf27;
+                                        
+                                        width: 25ch;
+                                        
+                                        
+                                        
+                                        animation: typing 5s steps(25), blink .5s infinite step-end alternate;
+                                        animation-delay: 116.5s;
+                                        animation-fill-mode: both;
+                                        overflow:hidden;
+                                
+                                       
+                                
+                                        
+                                        }
+                                        #veinte {
+
+                                          display: block;
+                                          
+                                          font-family: monospace;
+                                          
+                                          white-space: nowrap;
+                                          color: 91bf27;
+                                          
+                                          width: 98ch;
+                                          
+                                          
+                                          
+                                          animation: typing 6s steps(98), blink .5s infinite step-end alternate;
+                                          animation-delay: 123s;
+                                          animation-fill-mode: both;
+                                          overflow:hidden;
+                                  
+                                         
+                                  
+                                          
+                                          }
+                                          #veintiuno {
+
+                                            display: block;
+                                            
+                                            font-family: monospace;
+                                            
+                                            white-space: nowrap;
+                                            color: 91bf27;
+                                            
+                                            width: 37ch;
+                                            
+                                            
+                                            
+                                            animation: typing 4s steps(37), blink .5s infinite step-end alternate;
+                                            animation-delay: 138s;
+                                            animation-fill-mode: both;
+                                            overflow:hidden;
+                                    
+                                           
+                                    
+                                            
+                                            }
+                                            
+      @keyframes typing {
+      
+      
+      
+      from { width: 0}
+      
+      }
+      
+      
+      
+      @keyframes blink {
+      
+       50% { border-color: transparent}
+      
+      }
+    
+    
+  /*  || texto animated ||  */
+
+    
+    /* Add animation to "page content" */
+  /*.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+   /*      || FIN LOADINGGGG... ||      */

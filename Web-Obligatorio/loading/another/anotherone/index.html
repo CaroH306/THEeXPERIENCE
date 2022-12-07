@@ -1,0 +1,63 @@
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Redirección_de_web</title>
+        <link rel="stylesheet" href="style_loading.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body onload="myFunction()" style="margin:0;">
+            
+            <div id="loader"></div>
+            
+            <div id="myDiv" class="animate-bottom">
+              <h1>404</h1>
+              <h2>Error</h2>
+              <p>The requested page was not found, maybe you were looking for:</p>
+            
+            <div >
+                <ul>
+                  <li>
+                      <a href="anotherotherone/index.html">https://www.THEeXPERIENCE.com</a>
+                  </li>
+
+                  <li>
+                     <a href="anotherotherone/index.html">https://www.THEeXPERIENCE2.com</a>
+                  </li>
+
+                  <li>
+                      <a href="anotherotherone/index.html">https://www.TheExperienceofalifetime.com</a>
+                  </li>
+
+                  <li id="google">
+                      <a href="https://www.google.com"> Other Options </a>
+                   </li>
+
+                </ul>
+              </div>
+              <div>
+                <img src="https://c.tenor.com/qGWbN44UZlgAAAAM/monkey-oh.gif" alt=" Meme de marioneta sorprendida por lo que acaba de suceder.">
+              </div>
+              
+            </div>
+          </div>
+        
+    </body>
+
+    <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
+
+</html>
